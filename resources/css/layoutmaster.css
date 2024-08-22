@@ -1,0 +1,117 @@
+/* public/css/app.css */
+
+/* Reset một số thuộc tính cơ bản để đảm bảo sự nhất quán */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Định dạng cho toàn bộ trang */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+/* Định dạng cho phần container */
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Định dạng cho phần header */
+header {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+/* Định dạng cho thanh điều hướng */
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Định dạng cho phần nội dung chính */
+main {
+    padding: 2rem 0;
+}
+
+/* Định dạng cho các phần tử sản phẩm */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: -15px;
+}
+
+.col-sm-3 {
+    width: 100%;
+    max-width: 25%;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.col-sm-3 h2 {
+    margin-bottom: 0.5rem;
+}
+
+.col-sm-3 p {
+    margin-bottom: 0.5rem;
+}
+
+.col-sm-3 img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+/* Định dạng cho footer */
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+table.carts {
+    border-width: 1px;
+    border-spacing: 2px;
+    border-style: outset;
+    border-color: gray;
+    border-collapse: separate;
+    background-color: white;
+}
+
+table.carts td {
+    border-width: 1px;
+    padding: 1px;
+    border-style: inset;
+    border-color: gray;
+    background-color: white;
+}
